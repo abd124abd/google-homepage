@@ -1,0 +1,165 @@
+/* Universal Selectors */
+
+a {
+		text-decoration: none;
+}
+
+li {
+		display: inline;
+}
+
+html, body {
+		min-width: 1000px;
+		height: 100%;
+		font-family: Helvetica;
+}
+
+
+
+/* Header */
+header {
+		float: right;
+		height: 31px;
+	
+}
+
+
+#headNav {
+		padding: 10px;
+		
+		
+}
+
+#headNav a {
+		color: DimGray;
+		padding: 7px;
+		font-size: 20px;
+
+}
+
+#headNav a:hover {
+		text-decoration: underline;
+}
+
+
+
+/* Main */
+
+#container {
+		min-height: 100%;
+		position: relative;
+		
+}
+
+#content {
+		height: 100%;
+}
+
+#main {
+		position: relative;
+		top: 300px;
+		
+}
+
+#logo img {
+		display: block;
+		margin: 0 40%;
+		width: 25%;
+		position: static;
+}
+
+.search {
+		width: 553px;
+		margin: auto;
+		padding-top: 20px;
+}
+
+button:hover {
+		color: blue;
+}
+
+input {
+		width: 650px;
+		border: 1px solid #EDE2E2;
+		height: 35px;
+		padding: 3px;
+}
+
+input:focus {
+		outline: none;
+		border-color: blue;
+}
+
+.buttons {
+		width: 50%;
+		margin: auto;
+		
+
+}
+
+.lrButton {
+		border: 1px solid #EDE2E2;
+		background-color: #F2F2F2;
+		padding: 15x 10px;
+		font-weight: bold;
+		font-size: 11px;
+		float: right;
+		color: #4A4646;
+		margin-left: 18px;
+		margin-top: 20px;
+
+}
+
+.lrButton, input {
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+}
+
+
+
+/* Footer */
+footer {
+		height: 60px;
+		width: 100%;
+		
+		bottom: 0px;
+		position: absolute;
+		background-color: #F5F5F5;
+}
+
+#footNav {
+		padding: 10px;
+		float: left;
+		margin: 10px;
+
+}
+
+#footNav a {
+		
+		padding: 15px;
+		font-size: 22px;
+		color: DimGray;
+}
+
+#footNav a:hover{
+		text-decoration: underline;
+}
+
+#footNav2 {
+		padding: 10px;
+		float: right;
+		margin: 10px;
+
+}
+
+#footNav2 a {
+		
+		padding: 15px;
+		font-size: 22px;
+		color: DimGray;
+}
+
+#footNav2 a:hover{
+		text-decoration: underline;
+}
